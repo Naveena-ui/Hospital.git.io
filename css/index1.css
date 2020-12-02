@@ -1,0 +1,282 @@
+*{margin:0; padding:0;}
+a { text-decoration: none; }
+li{list-style:none;}
+.gridwrapper,#footer-sec,.meet-doctor-inner,.over-view-section-inner,.credibility-sec-inner,.location-sec-inner{max-width:1200px;margin: 0px auto;}
+.footer,#meet-doctor,#over-view-section,#credibility-sec,#location-sec{width:100%;margin: 0px auto;}
+
+.head{margin-top:20px;width: 300px;
+	float: left;display:inline-block;}
+	
+.credibility-sec-ul li{
+	display:inline-block;
+	margin:5px;
+	
+}
+.credibility-sec-ul {
+	text-align: center;
+	margin: 40px 0;
+}
+.headercontacts {
+	float: right;
+	font-size: 20px;
+	background: #e7f2ff;
+	margin-top: 40px;
+	border-radius: 20px;
+	width: 550px;
+}
+.headercontacts:hover{background:#194077;}
+.number {
+	background: url("../images/call-us-icon.png") no-repeat 20px 10px;
+	height: 30px;
+	padding: 10px 12px 1px 52px;
+	display: inline-block;
+}
+.location {
+	background: url("../images/office-loc-icon.png") no-repeat 20px 15px;
+	height: 30px;
+	padding: 15px 12px 8px 52px;
+	display: inline-block;
+}
+.appointment{background: url("../images/booking-online-appointments.png") no-repeat 20px 20px;
+	height: 30px;
+	padding: 15px 12px 8px 52px;
+	display: inline-block;}
+.contact li{display:inline-block;}
+.navgate li {display:inline-block;width:100px;}
+nav {
+	clear: both;
+}
+.navgate > li {display: inline-block !important;
+}
+nav {
+	clear: both;
+	padding: 40px 0 0 0;
+}
+
+#location-sec {
+	background: url("../images/map-bg.jpg") no-repeat  center top;
+	min-height: 521px;
+	position: relative;
+	margin:10px;
+}
+
+.headercontacts-1 {
+	float: right;
+	margin: -6px 0 0 0;
+}
+.navgate a{color:black;}
+.banner{background: url("../images/banner2.jpg") no-repeat 0px 0px;
+height:480px;clear:both;}
+
+#meet-doctor{background: url("../images/doctor-bg.jpg") no-repeat center 0px;
+height:573px;clear:both;}
+.banner h2 {
+	padding: 207px 0 0 1088px;
+	font-size: 39px;
+	color: #243c82;
+}
+.banner p {
+	padding: px 0 0 800px;
+	margin: 0 0 0 1153px;
+	font-size: 30px;
+}
+
+.footer-sec > div {
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 5%;
+}
+.footer-list > ul > li > a ,.footer-menu > ul > li > a{
+	display: block;
+	color: #fff;
+}
+.copyright {
+	color: #fff;
+}
+.footer-right {
+	width: 251px;
+	padding: 0 0 0 76px;
+}
+.website-search {
+	padding: 0 !important;
+}
+
+.doctor-deatils h1 {
+	font:900 38px/45px 'Merriweather', serif;
+	
+	color: #000;
+	margin: 0 0 70px 0;
+}
+
+
+.doctor-deatils h1 span {
+	
+	
+	font:300 28px/30px 'Merriweather', serif;
+	color: #000;
+	display: block;
+}
+.doctor-deatils > p {
+	font: 300 18px/24px 'Roboto', sans-serif;
+	color: #fff;
+}
+.understand-div {
+	width: 100%;
+	display: block;
+	/* float: none; */
+	clear: both;
+}
+.understand-div h2 span {
+	display: block;
+	font: 300 16px/20px 'Merriweather', serif;
+	
+}
+.understand-div ul li a{color:#fff;
+}
+
+.understand-div > ul {
+	padding: 65px 0 0 0px;
+	
+}
+.understand-div ul li {
+	
+	font: 300 17px/20px 'Merriweather', serif;
+	margin: 15px 34px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.understand-div h2 a{
+
+	font: 700 27px/30px 'Merriweather', serif;
+	color: #fff !important;
+	margin: 70px 0 0 30px;
+	float: left;
+}
+
+.viewmore {
+	color: #fff;
+	margin: 45px 0 0 0;
+	
+	font: 300 14px/24px 'Roboto', sans-serif;
+	display: inline-block;
+	float: left;
+
+	border: 1px solid #fff;
+	padding: 0 10px;
+}
+
+.doctor-deatils {
+	width: 434px;
+	float: right;
+	padding: 15px 24px 0px 20px;
+}
+
+
+#over-view-section {
+	padding: 60px 0;
+}
+
+.over-view-section-inner {
+	background: url("../images/overview-bg.png") no-repeat  top right;
+	height:356px;
+}
+
+
+.overview-deatails {
+	float: left;
+	padding: 0 0 0 40px;
+	width: 300px;
+	
+	margin: 0 30px 0 0;
+	
+	font: 400 18px/30px 'Roboto', sans-serif;
+}
+.footer-sec > div {
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 5%;
+	line-height: 30px;
+}
+
+
+
+#over-view-section h3 {
+	
+	font:700 35px/40px 'Merriweather', serif;
+	color: #000000;
+	padding: 50px 0 20px 0px;
+}
+h4 {
+	color: #fff;
+	font-size: 30px;
+	margin: 10px 0 20px 0;
+}
+.footer {
+	background: url(../images/footer-bg-2.jpg) no-repeat left top;
+	height: 400px;padding: 40px 0 0 0;
+}
+
+.disp-none {
+	display: none;
+}
+.ypo-logo {
+	padding: 35px 0 0 0;
+}
+.follow-us>ul > li {
+	display: inline-block;
+	width: 33px;
+	height: 32px;
+}
+.follow-us>ul > li > a {
+	display: block;
+	padding: 35px 0 0 0;
+}
+
+.twitter-footer a {
+	background: url(../images/smo-icons.png) no-repeat -38px 0px;
+}
+.youtube-footer a {
+	background: url(../images/smo-icons.png) no-repeat -113px 0px;
+}
+.facebook-footer a {
+	background: url(../images/smo-icons.png) no-repeat 0px -43px
+}
+
+.doctor-img {
+	float: left;
+}
+.overview-list{background:url(../images/overview-list-bg.png) no-repeat;height:360px;width:250px;float:left;padding: 57px 0 50px 0;}
+#over-view-section ul li a {
+	padding: 0px 0 0px 65px;
+	color: #000;
+	display: block;
+}
+
+#over-view-section ul li a:hover {
+	color: #fff;
+}
+.img1 a {
+	background: url("../images/case-studies-icon.png") no-repeat  30px center;
+}
+
+.img3 a {
+	background: url("../images/what-to-expect-icon.png") no-repeat  18px center;
+}
+
+.img2 a {
+	background: url("../images/our-approach-icon.png") no-repeat  18px center;
+}
+
+
+#over-view-section ul li {
+	color: #4e4e4f;
+	float: left;
+	width: 100%;
+	
+	font: 500 18px/55px 'Roboto', sans-serif;
+	
+	background: url("../images/overview-li-bg.png") no-repeat 0px 0px;
+	margin: 13px 0 13px 22px;
+}

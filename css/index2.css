@@ -1,0 +1,169 @@
+*{margin:0; padding:0;position:relative; font-family: 'Roboto', sans-serif;}
+a { text-decoration: none; }
+li{list-style:none;}
+.gridwrapper{max-width:1200px;margin: 0px auto;}
+	.logo {
+	display: inline-block;
+	width: 250px;
+	margin-top: 30px;
+}
+	
+.fa{color:blue;}
+.fa-home{color:black;}
+.headercontacts {
+	float: right;
+	font-size: 16px;
+	margin-top: 10px;
+	width: 550px;
+	font-weight:bold;
+}
+.headercontacts:hover{border-bottom: 2px solid orange;}
+
+.number {
+	padding: 10px 12px 1px 20px;
+	display: inline-block;
+}
+.location {
+	padding: 15px 12px 8px 20px;
+	display: inline-block;
+}
+.appointment{
+	padding: 15px 12px 8px 20px;
+	display: inline-block;}
+.menu1 li{ color:black;}
+.menu1{float:right;}
+.menu li {display:inline-block;width:100px;color:black; margin-top:0px;}
+nav{padding: 40px 0 0 0;}
+.menu > li {display: inline-block;}
+.navbar .menu .li .a:hover{border-bottom:#194077;}
+nav {
+	padding: 40px 0 0 0;
+}
+.headercontacts-1 {
+	float: right;
+}
+.menu a{color:black;}
+.navbar {
+	margin: 34px -15px 0 0px;
+}
+.banner{background: url("../images/subbanner.jpg") no-repeat 0px 0px;height:200px;background-size:cover;clear:both; top:20px;}
+.doctor{text-align:center;padding: 72px 0 0 0;}
+.doctor h2 {
+	font-size: 30px;
+	color: #0068e2;
+	padding: 10px 0 27px 0;
+}
+.spandr{color:#868aeb;}
+.section1{margin-top:20px; display:inline-block;width:800px; vertical-align:top;}
+.section1 p{padding-top:20px;line-height: 1.5;
+font-size: 17px;}
+.img{background:url("../images/christopher-behr.jpg") no-repeat 0px 0px;
+height:420px; display:inline-block;width:320px;margin: 89px 0px 0 30px;vertical-align:top;}
+.img h2 {
+	padding: 11px 0 0 14px;
+	font-size: 24px;
+}
+
+.readmore { 
+	padding: 5px 0px 5px 10px;
+	background: #03b9d8;
+	margin: 279px 89px 0 133px;
+}
+.readmore a{color:white;}
+.menurepacement .repacement1{background:url("../images/joint-rep-tot-knee-rep.png") no-repeat 0px 0px; display:inline-block;width:350px; height:200px; vertical-align:top;margin: -300px 0 0 0px;}
+.repace{display: block;}
+.repacement1 p{margin:28px 10px 10px 220px;}
+.menurepacement .repacement2{background:url("../images/reverse-shoulder-replacement-joint.png") no-repeat 0px 0px; display:inline-block;width:500px; height:200px; vertical-align:top;margin: -320px 0 0 400px;}
+.repace {display: block;}
+.repacement2 p{margin:28px 10px 10px 220px;}
+.menurepacement .repacement3{background:url("../images/shoulder-joint-replacement.png") no-repeat 0px 0px; display:inline-block;width:450px; height:200px; vertical-align:top;margin: -200px 0 0 0px;}
+.repace{display: block;}
+.repacement3 p{margin:28px 10px 10px 220px;}
+.Patient{margin-left:30px;}
+.menuaside{margin-top:-10px;}
+.patResources .menuaside .info1{background:#217ceb url("../images/resources1.png") no-repeat 15px 15px;height: 40px; color:white;padding: 21px 120px 19px 55px; border:10px solid #3e88eb;}
+.patResources .menuaside .info2{background:#217ceb url("../images/resources1.png") no-repeat 15px -75px;height: 40px;color:white;padding: 21px 120px 19px 68px; border:10px solid #3e88eb;}
+.patResources .menuaside .info3 {
+	background: #217ceb url("../images/resources1.png") no-repeat 15px -165px;
+	height: 40px;
+	color: white;
+	padding: 21px 80px 19px 67px;
+	border: 10px solid #3e88eb;
+}
+.patResources .menuaside .info4 {
+	background: #217ceb url("../images/resources1.png") no-repeat 15px -245px;
+	height: 40px;
+	color: white;
+	padding: 21px 94px 19px 68px;
+	border: 10px solid #3e88eb;
+}
+.patResources {
+	margin: 0 0px 0 830px;
+	background: #0a44b3;
+height:410px;
+width:335px;
+}
+.menuaside > li {
+	margin: 60px 0 0 15px;
+}
+
+.Patient {
+	color: white;
+	padding: 23px 0 0px 13px;
+	font-size: 29px;
+	font-weight: lighter;
+}
+.menuaside li a{padding-left:20px;}
+
+.patResources .menuaside .info1:hover{background:white url("../images/resources1.png") no-repeat 15px 15px;height: 40px;color:black;padding: 20px 120px 19px 55px; border:10px solid #3e88eb;}
+.patResources .menuaside .info2:hover{background:white url("../images/resources1.png") no-repeat 15px -75px;height:  40px;color:black;padding: 20px 120px 19px 68px; border:10px solid #3e88eb;}
+.patResources .menuaside .info3:hover {
+	background: white url("../images/resources1.png") no-repeat 15px -165px;
+	height: 40px;
+	color:black;
+	padding: 20px 80px 19px 67px;
+	border: 10px solid #3e88eb;
+}
+.patResources .menuaside .info4:hover {
+	background: white url("../images/resources1.png") no-repeat 15px -165px;
+	height: 40px;
+	color:black;
+	padding: 20px 80px 19px 67px;
+	border: 10px solid #3e88eb;
+}
+
+a.info3{padding:0 0 0 20px;}
+
+
+
+
+.foot {
+	background: #0a44b3;
+	margin: 18px 0 0 0;
+	height: 230px;
+	padding: 15px 0 0px 0;
+	text-align:center;
+		font-size: 20px;
+		font-weight:lighter;
+}
+.foot .gridwrapper .menulast li{display:inline-block; color:white;	padding: 0px 5px 0px 5px;}
+.foot .gridwrapper .menulast a{color:white;}
+.footerlogo{padding:10px 0 20px 0; }
+.footer {
+	color: white;
+	padding: 0px 0 10px 0;
+}
+.menulast{padding:10px 0 10px 0; }
+.menufollow li{display:inline-block;}
+.menufollow {
+	font-size: 39px;
+}
+.us{
+	color: wheat;
+	font-weight: lighter;
+}
+hr{color:white;height:0.2px;font-weight: lighter;}
+.fa-facebook-square{color:white;}
+.fa-twitter-square{color:white;}
+.fa-youtube-play{color:white;}
+.fa-linkedin-square{color:white;}

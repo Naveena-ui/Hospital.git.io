@@ -1,0 +1,107 @@
+*{margin:0; padding:0;}
+a { text-decoration: none; }
+li{list-style:none;}
+.gridwrapper{max-width:1200px;margin: 0px auto;}
+
+.headercontacts {
+	float: right;
+}
+.head {
+	width: 500px;
+	float: left;
+}
+
+.fax,.number,.bill,.appointment li{text-align:left;}
+.contact,.pay{text-align:right;}
+.fax-span {
+	display: block;
+}
+
+.number {
+	background: url("../images/contact-img.png") no-repeat;
+	height: 40px;
+	/* width: 100px; */
+	padding: 0 0 0 42px;display:inline-block;
+}
+.number-span {display: block;}
+
+.fax-span {color: #0a866c;}
+
+.fax {background: url("../images/fax-image.png") no-repeat;height: 40px;margin-top:20px;padding: 10px 12px 1px 52px;display: inline-block;}
+.number-span{color: #0a866c;}
+.payment{margin:20px;}
+.pay > li {vertical-align: middle;color:white;}
+
+.appointment {background: url("../images/booking-online-appointments.png") no-repeat #0a866c 10px;display: inline-block;padding: 8px 75px 6px 49px;border-radius: 5px;margin: 0px 0px 0 27px;
+	font-weight:bold;}
+	.appointment:hover {background: url("../images/booking-online-appointments.png") no-repeat black 10px;}
+	
+.bill {background: url("../images/bill-pay.png") no-repeat #0a866c 10px;height: 29px;width: 200px;display: inline-block;padding: 5px 0px 0px 52px;border-radius: 5px;
+	width:190px;font-weight:bold;}
+	.bill:hover{background: url("../images/bill-pay.png") no-repeat black 10px;}
+.navgate{display:inline;}
+nav {clear: both;}
+
+.navgate > li {display: inline-block;padding: 5px 35px;border-right: 1px solid #45a48e;}
+.navgate a{color:white;}
+.navgate li:hover{color:white; background:black;}
+
+.navgate > li a{display:block;}
+.navlast {border: none !important;}
+.navbar{background:#0a866c;box-shadow: 3px 3px 6px 0px #45a48e;}
+.section1{display:inline-block; width:150px;}
+.section2{display:inline-block; width:250px;vertical-align:top;text-align:justify;}
+.section {
+	background: #ffffff;
+	width: 458px;
+	height: 194px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px 0;
+	margin-top: 75px;
+	padding: 29px 5px 0px 17px;
+}
+.section .read {
+	background: #186351;
+	color: white;
+	border-radius: 5px;
+	padding: 6px 11px 6px 11px;
+	/* margin: 42px 0 0 0; */
+	line-height: 5.5;
+	margin: 0px 0 0 116px;
+}
+.sectioncol1{display:inline-block; width:500px;}
+.sectioncol2 {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	padding: 5px 0px 0 47px;
+}
+
+.sectioncol2 .bar .bar1{background: #0a866c url("../images/patient-form.png") no-repeat 15px 15px;height: 40px;}
+.sectioncol2 .bar .bar2{background: #0a866c url("../images/appointment-logo.png") no-repeat 15px 15px;;height: 40px;}
+.sectioncol2 .bar .bar3{background: #0a866c url("../images/insurance.png") no-repeat 15px 10px;;height: 40px;}
+.sectioncol2 .bar .bar4{background: #0a866c url("../images/maploc.png") no-repeat 15px 10px;;height: 40px;}
+.sectioncol2 .bar .bar5{background: #0a866c url("../images/notice.png") no-repeat 15px 10px;;height: 40px;}
+.bar > li {
+	margin:10px 0 0 0;border-radius: 5px;padding: 15px 1px 10px 80px;width:250px;
+}
+.bar a{color:white;
+	font-size: 20px;
+}
+.sectioncol2{margin:10px;}
+.section3{display:inline-block;width:900px; text-align:justify;font-size:20px;margin:10px;}
+.section3 p{padding:10px;}
+.anc {background: #0a866c;color: white;margin-left: 792px;padding: 5px;border-radius:5px;}
+.foot .gridwrapper .last li{display:inline-block; color:white;}
+.foot .gridwrapper .last a{color:white;}
+.footerlogo {
+	margin: 0 0 0 200px;
+}
+.footer{color:white;}
+.foot {
+	background: #939393;
+	margin: 18px 0 0 0;
+	height: 79px;
+	border: 1px solid black;
+	padding: 15px 0 0px 0;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      button{
+        margin: 10px 0 20px 40%;
+        padding-left: 0 30px 0 30px;
+		color:white;
+		background-color:green;
+		border-radius:10px;
+      }
+	  input{
+	      width:200px;
+		  height:30px;
+		  border-radius:5px;
+	  }
+	  button{
+	      width:200px;
+		  height:40px;
+		  font-size:15px;
+		  border-radius:10px;
+		  }
+		  button:hover{
+	  background-color:blue;
+	  }
+
+    </style>
+    <script>
+        function validate()
+        {
+            var username=document.getElementById('uname');
+            var phone=document.getElementById('no');
+            var password=document.getElementById('pass');
+            var pcon=document.getElementById('con');
+            var reg=/^[A-Z a-z]+$/;
+            var po=/^[6789]\d{9}$/;
+            var conp=/^[a-z0-9A-Z@]+$/;
+        
+        if(username.value.trim()=="")
+        {
+          alert("blank username");
+          username.style.border="solid 3px green";
+          return false;
+        }
+        else if(!username.value.match(reg))
+        {
+          alert("username should consists with letters")
+          return false;
+        }
+        else if(phone.value.trim()=="")
+        {
+          alert("blank phone number");
+          phone.style.border="solid 3px green";
+          return false;
+        }
+        else if(!phone.value.match(po))
+        {
+          alert("please enter your 10 digite mobile number")
+          return false;
+        }
+        else if(password.value.trim()=="")
+        {
+          alert("please enter your password");
+          password.style.border="solid 3px green";
+          return false;
+        }
+        else if(!password.value.match(conp))
+        {
+          return false;
+        }
+        else if(password.value.length<8)
+        {
+          alert("password should not be less than 8")
+          return false;
+        }
+       else if(pcon.value.trim()=="")
+        {
+          alert("please confirm your password");
+          pcon.style.border="solid 3px green";
+          return false;
+        }
+        else if(password.value!=pcon.value){
+        alert("password not matched");
+         return false;
+        }
+        else{
+            return true;
+        }
+    }
+    </script>
+</head>
+<body style="color:orange;">
+<div class="a">
+  
+    <form  align="center" onsubmit="return validate();" action="4projectlogin.html">
+  <table align="center">
+  <tr>    
+<td> User Name: </td>  <td><input id="uname" type="text" placeholder="enter your username"></td><br>
+  </tr>
+  <tr>
+<td>PhoneNumber:</td>  <td> <input id="no" type="text" placeholder="enter your number"></td>
+</tr>
+<tr>
+<td> Password:  </td>  <td>    <input id="pass" type="password" placeholder="enter your password"></td>
+</tr>
+<tr>
+<td>Confirmpassword: </td>  <td> <input id="con" type="password" placeholder="enter your confirmpassword"></td>
+</tr>  
+</table>
+<br>
+<button type="submit" onclick="validat()">Register</button>     
+
+    </form>
+  </div>
+</body>
+</html>
